@@ -1,0 +1,121 @@
+.home{
+    display: flex;
+    margin: 50px ;
+}
+
+strong{
+    color: rgb(9, 172, 236);
+}
+
+.profile{
+    display: flex;
+}
+
+.information{
+    width: 60%;
+    align-items: center;
+    margin-top: 8%;
+    margin-left: 50px;
+  }
+
+  .information a{
+    text-decoration: none;
+  }
+  .information .socialicon{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+.information .socialicon img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    transition: ease-in-out 0.3s;
+}
+.information .socialicon img:hover{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+} 
+
+.profile .profileimg{
+    width: 370px;
+    height: 370px; 
+    background-color: black;
+    z-index: 1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+    
+}
+
+.home .profile img{
+    width: 250px;
+    height: 250px; 
+    padding: 20px;
+    border: 15px solid white;
+    box-shadow: 0 0 10px rgb(2, 101, 248),
+    0 0 20px rgb(235, 238, 243),
+    0 0 30px rgb(2, 101, 248),
+    inset 0 0 10px rgb(2, 101, 248),
+    inset 0 0 20px rgb(235, 238, 243),
+    0 0 40px rgb(2, 101, 248),
+    inset 0 0 40px rgb(2, 101, 248);
+    border-radius: 50%;
+    z-index: 1;
+    background-color: black;
+    /* margin-left: 20px; */
+  }
+
+.profile .box{
+    width: 400px;
+    height: 500px;
+    background-image: linear-gradient(110deg,black 30%, rgb(19, 41, 238) 70%);
+    margin-top: -50px;
+    margin-left: -150px;
+    z-index: 0;
+}
+
+#btn-button118 {
+    --bg-color: 
+#191f36;
+    --snd-bg-color: 
+#262b40;
+    --text-color: 
+#fff;
+    --mian-color: 
+#59b2f4;
+  }
+
+  #btn-button118.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--mian-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--mian-color);
+    font-size: 1.6rem;
+    color: var(--bg-color);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.5s ease;
+  }
+  
+  .btn{
+    font-size: 17px;
+    height: 30px;
+    width: 100px;
+    color: black;
+    background-color: #59b2f4;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 20px #59b2f4;
+    transition: ease-in-out 0.2s;
+    
+  }
+
+  .btn:hover{
+    box-shadow: none;
+  }
+ 

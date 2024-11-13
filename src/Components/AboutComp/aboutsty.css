@@ -1,0 +1,14 @@
+.about .information{
+    width: 60%;
+    align-items: center;
+    margin-top: 4%;
+    margin-left: 50px;
+    padding-left: 100px;
+  }
+  .about img{
+    margin-top: -20px;
+    box-shadow: none;
+    border: none;
+    height: 400px;
+    width: 400px;
+  }
